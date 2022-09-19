@@ -1,0 +1,61 @@
+Setup:
+--------------------------------------------------------------------------
+1. create maven project
+2. go to mvn repository site and search for selenium
+https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.4.0
+3. copy dependency text
+4. add dependencies in the POM.XML file
+5. Ensure that reload mvn button at right hand top is clicked.
+
+shortcuts:
+-----------
+duplicate line : ctrl + d
+
+Selenium:
+-------------------------------------------------------------------------------
+chrome driver key: webdriver.chrome.driver
+firefox driver key: webdriver.gecko.driver
+
+3 "is" methods on a web element:
+-----------------------------------
+is displayed:
+sometimes element is present in the HTML but not visible on the screen.
+
+is enabled:
+element is visible on the screen but unable to interact with the element.
+
+is selected:
+are radio buttons, checkboxes selected.
+
+
+getAttribute():
+--------------------
+case 1:
+if attribute is present and attribute has a value, then it will return the value.
+
+case 2:
+if attribute is present but has no value, then it will return "true".
+
+case 3:
+if attribute is not present, then it will return "null".
+
+getText:
+-----------
+returns empty string when there is no ElementText for the element.
+
+What is an element text?
+------------------------
+Text embedded b/w open tag and closing tag is called elementtext
+eg:
+===
+<tag id="abcd" class="xyz">ELEMENT TEXT</tag>
+
+How to get value that is present inside the input field?
+---------------------------------------------------------
+we cannot use gettext() in this case, but we can use
+getAttribute("value") to get the value present inside the input field.
+
+Assignments:
+---------------
+https://leafground.com/select.xhtml;jsessionid=node0171n5tc4xw5mtfmlcopvq9s5p322139.node0
+https://www.rogers.com/phones/?icid=R_WIR_JOR_WBOM11
