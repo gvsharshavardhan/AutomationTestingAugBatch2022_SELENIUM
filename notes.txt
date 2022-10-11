@@ -59,3 +59,118 @@ Assignments:
 ---------------
 https://leafground.com/select.xhtml;jsessionid=node0171n5tc4xw5mtfmlcopvq9s5p322139.node0
 https://www.rogers.com/phones/?icid=R_WIR_JOR_WBOM11
+frames:
+http://the-internet.herokuapp.com/nested_frames
+radio buttons:
+https://letcode.in/radio
+
+there is no method called "isElementPresent" inside selenium:
+-------------------------------------------------------------------
+findElements() -> list of webelements
+if elements are not present -> empty list
+
+if list is empty it means element is not present
+
+public boolean isElementPresent(by locator){
+return driver.findElements(locator).size()!=0;
+}
+
+
+POM:
+-----
+Page Object Model - Design pattern
+
+1. create a class for each page in the application
+------------------------------------------------------
+main folder
+
+1.homepage
+
+locators/variables
+By kartlocator = By.xpth("svsdsvdvd");
+
+
+methods/actions
+clickOnKart(){
+driver.findele(kartlocator).click();
+}
+
+2.previewOrderPage
+
+3.TermsConditionsPage
+------------------------------------------------------
+
+test folder:
+homePageTest
+previewOrderPageTest
+E2eTest
+
+@Test
+e2etest2(){
+//naviaget to homepage
+
+}
+
+
+Manual Testers
+Req spec doc
+Scenarios
+testcases 100 1hr 5 testers - 10hrs
+50
+20 - Automations
+
+
+thread.sleep(50) - hard
+
+implicit wait:
+--------------------
+
+driver level wait - 5 sec, global
+thread.sleep(50)
+3 elemnets
+
+1 - 2 sec
+2 - 9 sec - critical, not more than 6 sec - masking the issue
+3 - 1 sec
+
+4
+50 sec - slowest
+
+explicit wait : element level
+------------------
+each element
+b1 - 5
+b2 - 2
+b3 - 9
+1000 - 20, 30
+
+
+
+
+
+
+5
+100 milli
+
+10 min
+20 min
+30 min
+food is not cooked
+
+
+excel:
+-------
+workbook -> sheet -> rows -> cells
+
+
+http://automationpractice.com/index.php
+https://demo.opencart.com/
+
+
+
+
+
+
+
+
+

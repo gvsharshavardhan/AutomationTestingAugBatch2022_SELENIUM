@@ -1,10 +1,11 @@
 package UI_Interactions;
 
+import baseTestPackage.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
-public class InputDemo  extends BaseTest{
+public class InputDemo  extends BaseTest {
 
     private final By fullNameInputLocator = By.id("fullName");
     private final By joinInputLocator = By.id("join");

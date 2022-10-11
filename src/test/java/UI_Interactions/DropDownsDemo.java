@@ -1,5 +1,6 @@
 package UI_Interactions;
 
+import baseTestPackage.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -9,7 +10,7 @@ import sleepHelperMethods.SleepHelper;
 
 import java.util.*;
 
-public class DropDownsDemo extends BaseTest{
+public class DropDownsDemo extends BaseTest {
 
     @Test
     public void visibleTextTest(){

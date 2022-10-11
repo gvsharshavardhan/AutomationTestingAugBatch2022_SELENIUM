@@ -1,6 +1,6 @@
 package realTimeScenarios;
 
-import UI_Interactions.BaseTest;
+import baseTestPackage.BaseTest;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import sleepHelperMethods.SleepHelper;
